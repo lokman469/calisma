@@ -1,0 +1,66 @@
+// Renkler
+$primary: #2196F3;
+$secondary: #F50057;
+$success: #4CAF50;
+$error: #F44336;
+$warning: #FF9800;
+$info: #2196F3;
+
+$grey-50: #FAFAFA;
+$grey-100: #F5F5F5;
+$grey-200: #EEEEEE;
+$grey-300: #E0E0E0;
+$grey-400: #BDBDBD;
+$grey-500: #9E9E9E;
+$grey-600: #757575;
+$grey-700: #616161;
+$grey-800: #424242;
+$grey-900: #212121;
+
+// Tipografi
+$font-family-base: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+$font-size-base: 16px;
+$font-weight-light: 300;
+$font-weight-regular: 400;
+$font-weight-medium: 500;
+$font-weight-bold: 700;
+
+// Boşluklar
+$spacing-unit: 8px;
+$spacing-xs: $spacing-unit;
+$spacing-sm: $spacing-unit * 2;
+$spacing-md: $spacing-unit * 3;
+$spacing-lg: $spacing-unit * 4;
+$spacing-xl: $spacing-unit * 5;
+
+// Kenar yuvarlaklığı
+$border-radius-sm: 4px;
+$border-radius-md: 8px;
+$border-radius-lg: 12px;
+$border-radius-xl: 16px;
+
+// Z-index seviyeleri
+$z-index-drawer: 1200;
+$z-index-modal: 1300;
+$z-index-snackbar: 1400;
+$z-index-tooltip: 1500;
+
+// Medya sorguları
+$breakpoint-xs: 0px;
+$breakpoint-sm: 600px;
+$breakpoint-md: 960px;
+$breakpoint-lg: 1280px;
+$breakpoint-xl: 1920px;
+
+// Gölgeler
+$shadow-1: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+$shadow-2: 0 3px 6px rgba(0,0,0,0.15), 0 2px 4px rgba(0,0,0,0.12);
+$shadow-3: 0 10px 20px rgba(0,0,0,0.15), 0 3px 6px rgba(0,0,0,0.10);
+$shadow-4: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+$shadow-5: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+
+// Geçiş süreleri
+$transition-duration-short: 150ms;
+$transition-duration-standard: 300ms;
+$transition-duration-complex: 375ms;
+$transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 

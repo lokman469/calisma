@@ -1,0 +1,24 @@
+@import '../variables';
+
+// Dark tema renkleri
+$theme-colors: (
+  'background': (
+    'default': #121212,
+    'paper': #1E1E1E,
+  ),
+  'text': (
+    'primary': rgba(255, 255, 255, 0.87),
+    'secondary': rgba(255, 255, 255, 0.6),
+    'disabled': rgba(255, 255, 255, 0.38),
+  ),
+  'divider': rgba(255, 255, 255, 0.12),
+);
+
+// Dark tema özellikleri
+.theme-dark {
+  @each $color, $shades in $theme-colors {
+    @each $shade, $value in $shades {
+      --#{$color}-#{$shade}: #{$value};
+    }
+  }
+} 
